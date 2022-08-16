@@ -29,6 +29,7 @@ body {
 .app {
   background-color: #252d4a;
   width: 550px;
+  margin-inline: auto;
   min-height: 300px;
   height: min-content;
   border-radius: 15px;
