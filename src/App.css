@@ -70,7 +70,9 @@ body {
   display: flex;
   font-size: 24px;
   align-items: center;
-  width: 95%;
+  flex-direction: column;
+  min-width: 300px;
+  justify-content: center;
 }
 
 /* QUESTION/TIMER/LEFT SECTION */
