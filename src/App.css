@@ -29,7 +29,7 @@ body {
 .app {
   background-color: #252d4a;
   width: 550px;
-  min-height: 200px;
+  min-height: 300px;
   height: min-content;
   border-radius: 15px;
   padding: 20px;
@@ -44,7 +44,7 @@ body {
    display: flex;
    flex-direction: column;
    align-items: center;
-   justify-content: center;
+   justify-content: space-evenly;
 }
 .answerBar{
   width: 40%;
@@ -60,13 +60,17 @@ body {
  text-align: center;
 
 }
+.answerBar h5{
+   font-size: 16px;
+}
 .app p{
-  font-size: 20px;
+  font-size: 16px;
 }
 .score-section {
   display: flex;
   font-size: 24px;
   align-items: center;
+  width: 95%;
 }
 
 /* QUESTION/TIMER/LEFT SECTION */
@@ -141,4 +145,13 @@ button:focus {
 
 button svg {
   margin-right: 5px;
+}
+@media(max-width: 700px){
+  .app{
+    width: 95%;
+  }
+.answerBar{
+  min-width: 50%;
+  
+}
 }
